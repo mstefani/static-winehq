@@ -1,3 +1,3 @@
 <?php
-http_redirect("PVS-Studio/");
+header("Location: /PVS-Studio/");
 ?>
