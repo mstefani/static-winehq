@@ -22,6 +22,16 @@ static code analyser on Wine and providing us with the raw output.</p>
 <li><a href="https://source.winehq.org/git/wine.git/search/HEAD?pg=0;s=PVS-Studio;st=commit">Wine commits</a> crediting PVS-Studio</li>
 <li>Error type description: <a href="http://www.viva64.com/en/d/0368/">PVS-Studio Messages</a></li>
 </ul>
+<h3>Usage Notes</h3>
+<ul>
+<li>Table is just a visual presentation of the PVS-Studio data use by me (Michael Stefaniuc).</li>
+<li>The goal is to make it easier to find the needle in the haystack aka finding true defects.</li>
+<li>The goal is <b>NOT</b> to get the table to 0 open entries.</li>
+<li>Only <b>"open"</b> defects are shown, but ...</li>
+<li>There a ton of defects that are <b>"intended behavior"</b>, especially in tests. Ignore them.</li>
+<li>There are quite a few true <b>"false positives"</b> too (V724, V573).</li>
+</ul>
+
 <div class="main">
 <table id="PVS" class="display" width="100%" cellspacing="0">
 <thead><tr>
